@@ -2,13 +2,17 @@ package sd.kbc.app
 
 object Constants {
 
+    const val TOTAL_QUESTIONS: String = "total_questions"
+    const val CORRECT_ANSWERS: String = "correct_answer"
+    const val USER_NAME: String = "user_name"
+
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
         // 1
         val que1 = Question(
             1, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_argentina,
+            R.drawable.kbc_logo,
             "Argentina", "Australia",
             "Armenia", "Austria", 1
         )
@@ -18,7 +22,7 @@ object Constants {
         // 2
         val que2 = Question(
             2, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_australia,
+            R.drawable.kbc_logo,
             "Angola", "Austria",
             "Australia", "Armenia", 3
         )
@@ -28,7 +32,7 @@ object Constants {
         // 3
         val que3 = Question(
             3, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_brazil,
+            R.drawable.kbc_logo,
             "Belarus", "Belize",
             "Brunei", "Brazil", 4
         )
@@ -38,7 +42,7 @@ object Constants {
         // 4
         val que4 = Question(
             4, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_belgium,
+            R.drawable.kbc_logo,
             "Bahamas", "Belgium",
             "Barbados", "Belize", 2
         )
@@ -48,7 +52,7 @@ object Constants {
         // 5
         val que5 = Question(
             5, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_fiji,
+            R.drawable.kbc_logo,
             "Gabon", "France",
             "Fiji", "Finland", 3
         )
@@ -58,7 +62,7 @@ object Constants {
         // 6
         val que6 = Question(
             6, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_germany,
+            R.drawable.kbc_logo,
             "Germany", "Georgia",
             "Greece", "none of these", 1
         )
@@ -68,7 +72,7 @@ object Constants {
         // 7
         val que7 = Question(
             7, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_denmark,
+            R.drawable.kbc_logo,
             "Dominica", "Egypt",
             "Denmark", "Ethiopia", 3
         )
@@ -78,7 +82,7 @@ object Constants {
         // 8
         val que8 = Question(
             8, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_india,
+            R.drawable.kbc_logo,
             "Ireland", "Iran",
             "Hungary", "India", 4
         )
@@ -88,7 +92,7 @@ object Constants {
         // 9
         val que9 = Question(
             9, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_new_zealand,
+            R.drawable.kbc_logo,
             "Australia", "New Zealand",
             "Tuvalu", "United States of America", 2
         )
@@ -98,7 +102,7 @@ object Constants {
         // 10
         val que10 = Question(
             10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
+            R.drawable.kbc_logo,
             "Kuwait", "Jordan",
             "Sudan", "Palestine", 1
         )

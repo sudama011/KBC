@@ -13,6 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KBC"
         tools:targetApi="31">
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".QuizQuestionsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
